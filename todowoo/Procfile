@@ -1,1 +1,1 @@
-web: gunicorn todowoo.wsgi
+web: gunicorn todowoo.wsgi --log-file -
